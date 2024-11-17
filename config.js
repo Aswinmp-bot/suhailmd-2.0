@@ -42,14 +42,14 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://i.ibb.co/pXyNHj8/suhail.jpg" // "image" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://files.catbox.moe/ht6us5.png" // "image" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "918157082630";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -69,15 +69,15 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "🍁",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  botname : process.env.BOT_NAME  || "«ˢˁ  ͣͤ ͍ͬʮ˱˲᭄,
+  ownername:process.env.OWNER_NAME|| "«ˢˁ  ͣͤ ͍ͬʮ˱˲᭄",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,7 +91,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
